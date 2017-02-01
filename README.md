@@ -32,3 +32,5 @@ src
     - collections.js
     - methods.js
 ```
+
+babel-core babel-eslint eslint eslint-config-standard eslint-plugin-html eslint-plugin-promise eslint-plugin-standard
