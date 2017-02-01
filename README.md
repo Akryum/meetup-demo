@@ -18,6 +18,7 @@ meteor add akryum:vue-less
 Créer les fichiers de base :
 
 ```
+src
 - client.js
 - index.html
 - server.js
@@ -27,7 +28,7 @@ Créer les fichiers de base :
   - server
     - server.js
     - publications.js
-  - common
+  - lib
     - collections.js
     - methods.js
 ```
