@@ -11,8 +11,11 @@ Vue.use(VueTracker)
 
 import App from './components/App.vue'
 
+import router from './router'
+
 /* eslint no-new: 0 */
 new Vue({
   ...App,
+  router,
   el: '#app',
 })
