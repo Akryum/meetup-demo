@@ -15,6 +15,8 @@ Un peu de less ?
 meteor add akryum:vue-less
 ```
 
+Existe aussi pour sass, stylus, pug...
+
 Créer les fichiers de base :
 
 ```
@@ -25,6 +27,8 @@ src
 - imports
   - client
     - client.js
+    - components
+      - App.vue
   - server
     - server.js
     - publications.js
@@ -33,4 +37,8 @@ src
     - methods.js
 ```
 
-babel-core babel-eslint eslint eslint-config-standard eslint-plugin-html eslint-plugin-promise eslint-plugin-standard
+ESLint ?
+
+```
+meteor npm i -SD babel-eslint eslint eslint-config-standard eslint-plugin-html eslint-plugin-promise eslint-plugin-standard
+```
